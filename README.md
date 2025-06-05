@@ -19,14 +19,15 @@ Más adelante implementare la opción que permita cambiar el Sistema Operativo (
 
 ## Sobre el proyecto
 
-Basado en la [prueba de concepto homónima](https://www.behance.net/gallery/115992853/Configurador-de-scripts) que empecé a desarrollar en 2018, desde una planilla de calculo la cual ustedes pueden [conseguir una copia](https://docs.google.com/spreadsheets/d/1EU2KkVS_1Liq5GMHN13Ja5l8CIbfGKU6RtWO7qc-cSE/copy). 
-
-
 ### Objetivos
 1. Que la herramienta este disponible de manera online.
 2. Que los datos se procesen localmente.
 3. Optimizar la interface de usuario (UI) en función de la experiencia de usuario (UX).
 4. Proveer una wiki (no exhaustiva) ampliando la información acerca del uso y desarrollo de estos scripts.
+
+### Acerca de
+Basado en la [prueba de concepto homónima](https://www.behance.net/gallery/115992853/Configurador-de-scripts) que empecé a desarrollar en 2018, desde una planilla de calculo la cual ustedes pueden [conseguir una copia](https://docs.google.com/spreadsheets/d/1EU2KkVS_1Liq5GMHN13Ja5l8CIbfGKU6RtWO7qc-cSE/copy). 
+
 
 
 
