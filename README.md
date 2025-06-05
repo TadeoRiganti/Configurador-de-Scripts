@@ -28,7 +28,4 @@ Más adelante implementare la opción que permita cambiar el Sistema Operativo (
 ### Acerca de
 Basado en la [prueba de concepto homónima](https://www.behance.net/gallery/115992853/Configurador-de-scripts) que empecé a desarrollar en 2018, desde una planilla de calculo la cual ustedes pueden [conseguir una copia](https://docs.google.com/spreadsheets/d/1EU2KkVS_1Liq5GMHN13Ja5l8CIbfGKU6RtWO7qc-cSE/copy). 
 
-
-
-
-
+<div align="center"><img width="1280" src="https://github.com/TadeoRiganti/Configurador-de-Scripts/blob/main/wiki/prueba_de_concepto.gif"></div>
