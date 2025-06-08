@@ -1,6 +1,6 @@
-/* TABLE OF CONTENTS
+/* TABLE OF CONTENTS -------------------/
 
-GENERAL STYLE
+GLOBAL STYLE
     │
     ├─ VARIABLES
     │    ├─ Color Palette
@@ -21,7 +21,8 @@ GENERAL STYLE
          └─ Utility Classes
              ├─ Aesthethic classes  
              └─ Layout classes    
-*/
+
+ END TABLE OF CONTENTS ----------------*/
 
 
 /* GENERAL STYLE */
@@ -29,14 +30,14 @@ GENERAL STYLE
 /* VARIABLES */
 
 :root {
-    /* COLOR PALETTE */
+    /* Color Palette */
 
-    /* Brand colors */
+    /* Brand */
     --primary-color: white;
     --secondary-color: #252525;
     --tertiary-color: #00A650;
 
-    /* System colors */
+    /* System */
     --error-color: #ba1a1a;
 }
 
@@ -60,10 +61,40 @@ h1 {
   box-sizing: border-box;
 }
 
+/* COLOR PALETTE */
+
 /* ANIMATIONS */
 
 
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
+}
+
+/* ELEVATIONS */
+
+/* TIPOGRAPHY */
+
+/* ELEMENTS */
+
+:is(ul, ol) {
+    list-style: inside;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
