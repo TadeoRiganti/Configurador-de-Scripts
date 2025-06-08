@@ -149,6 +149,17 @@ figure {
 
 /* Navigation Bar */
 
+.navbar__logo{
+    max-width: 250px;
+    color: inherit;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.navbar__logo-img {
+    width: 2rem;
+}
+
 
 /* MAIN */
 
