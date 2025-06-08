@@ -137,27 +137,46 @@ figure {
 
 /* || LAYOUT */
 
-
 /* GENERAL RULES */
-
 
 
 /* || SITEWIDE */
 
-
 /* HEADER */
+
+header {
+  text-align: center;
+  width: 100%;
+}
 
 /* Navigation Bar */
 
-.navbar__logo{
-    max-width: 250px;
-    color: inherit;
-    font-weight: bolder;
-    text-decoration: none;
+.navbar {
+    background-color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
 }
 
+.navbar__logo {
+    display: flex;
+    align-items: center;
+    color: inherit;
+    font-size: larger;
+    font-weight: bolder;
+    text-decoration: none;
+    gap: .5rem;
+}
+
+
 .navbar__logo-img {
-    width: 2rem;
+    max-height: 2rem;
+}
+
+.navbar__nav {
+    display: flex;
+    gap: 1rem;
 }
 
 
