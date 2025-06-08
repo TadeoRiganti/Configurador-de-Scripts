@@ -22,10 +22,22 @@ GLOBAL STYLE
              ├─ Aesthethic classes  
              └─ Layout classes    
 
+LAYOUT
+    └─ GENERAL RULES
+
+SITEWIDE
+    ├─ HEADER
+    │    └─ Navigation bar
+    ├─ MAIN
+    ├─ ASIDE
+    └─ FOOTER
+
  END TABLE OF CONTENTS ----------------*/
 
 
-/* GENERAL STYLE */
+
+/* || GENERAL STYLE */
+
 
 /* VARIABLES */
 
@@ -40,6 +52,7 @@ GLOBAL STYLE
     /* System */
     --error-color: #ba1a1a;
 }
+
 
 /* RESET BROWSER STYLE */
 
@@ -61,19 +74,23 @@ h1 {
   box-sizing: border-box;
 }
 
+
 /* COLOR PALETTE */
 
-/* ANIMATIONS */
 
+/* ANIMATIONS */
 
 html {
     scroll-behavior: smooth;
     scroll-padding-top: 4rem;
 }
 
+
 /* ELEVATIONS */
 
+
 /* TIPOGRAPHY */
+
 
 /* ELEMENTS */
 
@@ -98,3 +115,28 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+
+
+
+/* || LAYOUT */
+
+
+/* GENERAL RULES */
+
+
+
+/* || SITEWIDE */
+
+
+/* HEADER */
+
+/* Navigation Bar */
+
+
+/* MAIN */
+
+
+/* ASIDE */
+
+
+/* FOOTER */
