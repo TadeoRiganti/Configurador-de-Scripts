@@ -1,0 +1,69 @@
+/* TABLE OF CONTENTS
+
+GENERAL STYLE
+    │
+    ├─ VARIABLES
+    │    ├─ Color Palette
+    │    │    ├─ Brand colors
+    │    │    └─ System colors
+    │    ├─ Typography
+    │    └─ Layout Settings
+    ├─ RESET BROWSER STYLE
+    ├─ COLOR PALETTE
+    │    └─ Utility Classes
+    │        └─ Aesthethic classes
+    ├─ ANIMATIONS
+    ├─ ELEVATIONS
+    ├─ TYPOGRAPHY
+    │    └─ Utility Classes
+    │        └─ Aesthethic classes
+    └─ ELEMENTS
+         └─ Utility Classes
+             ├─ Aesthethic classes  
+             └─ Layout classes    
+*/
+
+
+/* GENERAL STYLE */
+
+/* VARIABLES */
+
+:root {
+    /* COLOR PALETTE */
+
+    /* Brand colors */
+    --primary-color: white;
+    --secondary-color: #252525;
+    --tertiary-color: #00A650;
+
+    /* System colors */
+    --error-color: #ba1a1a;
+}
+
+/* RESET BROWSER STYLE */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: normal;
+    /* NOTE: Alredy using a display font for h1 title, so no additional weight
+    is needed to look as a display font. */
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ANIMATIONS */
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 4rem;
+}
